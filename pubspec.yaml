@@ -33,9 +33,15 @@ dependencies:
       url: https://github.com/Mc231/quiz_engine_core.git
 
 dev_dependencies:
+  test: ^1.21.6
+  mockito: ^5.3.1
+  build_runner:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+  lints: ^3.0.0
+  coverage: ^1.6.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -45,6 +51,9 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/
 
   # To add Flutter specific assets to your application, add an assets section,
   # like this:
