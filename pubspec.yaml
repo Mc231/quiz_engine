@@ -27,6 +27,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  responsive_builder: ^0.7.0
+  quiz_engine_core:
+    git:
+      url: https://github.com/Mc231/quiz_engine_core.git
 
 dev_dependencies:
   flutter_test:
